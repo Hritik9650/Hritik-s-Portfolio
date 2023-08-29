@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hritik-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(10, 10, 50);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(134, 134, 207);
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(134, 134, 207);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0px;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+
+        }
+
+        .leftsection {
+            font-size: 36px;
+            /* margin: 20px 0px; */
+        }
+
+        .rightsection img {
+            width: 100%;
+
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 55px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            background: white;
+            width: 1px;
+            height: 95px;
+            margin: 0px 136px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        footer {
+            background-color: #272744;
+            /* height: 240px; */
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer div {
+            width: 150px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 60px;
+            left: -54px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            width: 180px;
+            position: relative;
+            top: 57px;
+            left: -48px;
+            font-size: 9px;
+            color: gray;
+        }
+
+        .image-top {
+            width: 58px;
+            left: -30px;
+            position: relative;
+            top: -37px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Hritik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Hritik</span>
+                <div>and I am a passionate</div>
+                <div class="buttons">
+                   <button class="btn">Download Resume</button>
+                   <button class="btn">Visit Github</button>
+                </div>
+                <!-- <div>Web Developer</div>  -->
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="/bg.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="/html.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint placeat quasi porro eveniet quis.
+                        Quos explicabo omnis repellendus beatae dolorum, autem ullam exercitationem voluptates!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/javascript.png" alt="">
+                    <div class="vertical-title">
+                        JS Developer (2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint placeat quasi porro eveniet quis.
+                        Quos explicabo omnis repellendus beatae dolorum, autem ullam exercitationem voluptates!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/css.png" alt="">
+                    <div class="vertical-title">
+                        Css Developer (2014-2016)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint placeat quasi porro eveniet quis.
+                        Quos explicabo omnis repellendus beatae dolorum, autem ullam exercitationem voluptates!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/react.png" alt="">
+                    <div class="vertical-title">
+                        React Developer (2016-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint placeat quasi porro eveniet quis.
+                        Quos explicabo omnis repellendus beatae dolorum, autem ullam exercitationem voluptates!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Hritik's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Serices</li>
+                    <li>Contact us</li>
+
+                </ul>
+            </div>
+            <div class="footer-third">
+              <ul>
+ <li>Home</li>
+                  <li>About</li>
+                  <li>Serices</li>
+                  <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="footer-fourth  ">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Serices</li>
+                    <li>Contact us</li>
+                </ul>
+                </div>
+        
+        </div>
+        <div class="footer-rights">
+          copyright &#169 www.hritiksportfolio.com | All rights reserved 
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer,', 'Graphic designer,', 'Web designer,', 'Video editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
